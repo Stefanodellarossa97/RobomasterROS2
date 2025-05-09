@@ -1,0 +1,28 @@
+[1.784s] Invoking command in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros': AMENT_PREFIX_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs/lib:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk/lib:/home/stefano/Webots_ros2/install/webots_ros2_control/lib:/home/stefano/Webots_ros2/install/webots_ros2_driver/lib:/home/stefano/Webots_ros2/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/stefano/Robomaster_WS/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages:/home/stefano/Robomaster_WS/install/robomaster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /home/stefano/Robomaster_WS/build/robomaster_ros/build install --record /home/stefano/Robomaster_WS/build/robomaster_ros/install.log --single-version-externally-managed install_data
+[2.434s] running egg_info
+[2.435s] writing ../../../build/robomaster_ros/robomaster_ros.egg-info/PKG-INFO
+[2.436s] writing dependency_links to ../../../build/robomaster_ros/robomaster_ros.egg-info/dependency_links.txt
+[2.437s] writing entry points to ../../../build/robomaster_ros/robomaster_ros.egg-info/entry_points.txt
+[2.437s] writing requirements to ../../../build/robomaster_ros/robomaster_ros.egg-info/requires.txt
+[2.437s] writing top-level names to ../../../build/robomaster_ros/robomaster_ros.egg-info/top_level.txt
+[2.442s] reading manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[2.445s] writing manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[2.446s] running build
+[2.446s] running build_py
+[2.451s] running install
+[2.452s] running install_lib
+[2.462s] running install_data
+[2.464s] running install_egg_info
+[2.468s] removing '/home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[2.470s] Copying ../../../build/robomaster_ros/robomaster_ros.egg-info to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info
+[2.472s] running install_scripts
+[2.522s] Installing connect script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.523s] Installing discover script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.524s] Installing display_battery script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.525s] Installing h264_decoder script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.526s] Installing move script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.526s] Installing play_audio script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.527s] Installing play_opus script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.527s] Installing robomaster_driver script to /home/stefano/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[2.534s] writing list of installed files to '/home/stefano/Robomaster_WS/build/robomaster_ros/install.log'
+[2.566s] Invoked command in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros' returned '0': AMENT_PREFIX_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs/lib:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk/lib:/home/stefano/Webots_ros2/install/webots_ros2_control/lib:/home/stefano/Webots_ros2/install/webots_ros2_driver/lib:/home/stefano/Webots_ros2/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/stefano/Robomaster_WS/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages:/home/stefano/Robomaster_WS/install/robomaster_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /home/stefano/Robomaster_WS/build/robomaster_ros/build install --record /home/stefano/Robomaster_WS/build/robomaster_ros/install.log --single-version-externally-managed install_data

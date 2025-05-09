@@ -1,0 +1,178 @@
+[0.829s] Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake /home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_description -DCMAKE_INSTALL_PREFIX=/home/stefano/Robomaster_WS/install/robomaster_description
+[1.642s] -- The C compiler identification is GNU 11.4.0
+[1.643s] -- The CXX compiler identification is GNU 11.4.0
+[1.643s] -- Detecting C compiler ABI info
+[1.789s] -- Detecting C compiler ABI info - done
+[1.806s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.806s] -- Detecting C compile features
+[1.806s] -- Detecting C compile features - done
+[1.813s] -- Detecting CXX compiler ABI info
+[2.287s] -- Detecting CXX compiler ABI info - done
+[2.297s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.297s] -- Detecting CXX compile features
+[2.297s] -- Detecting CXX compile features - done
+[2.333s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.014s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.703s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.190s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.259s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.272s] -- Added test 'lint_cmake' to check CMake code style
+[4.281s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.333s] -- Added test 'xmllint' to check XML markup files
+[4.345s] -- Configuring done
+[4.357s] -- Generating done
+[4.361s] -- Build files have been written to: /home/stefano/Robomaster_WS/build/robomaster_description
+[4.374s] Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake /home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_description -DCMAKE_INSTALL_PREFIX=/home/stefano/Robomaster_WS/install/robomaster_description
+[4.380s] Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/stefano/Robomaster_WS/build/robomaster_description -- -j8 -l8
+[4.614s] Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/stefano/Robomaster_WS/build/robomaster_description -- -j8 -l8
+[4.666s] Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/stefano/Robomaster_WS/build/robomaster_description
+[4.711s] -- Install configuration: ""
+[4.712s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf
+[4.712s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/robomaster_s1.urdf.xacro
+[4.713s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/base.urdf.xacro
+[4.713s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/gimbal.urdf.xacro
+[4.715s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/gripper.urdf.xacro
+[4.717s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/extension.urdf.xacro
+[4.718s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/wheel.urdf.xacro
+[4.718s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/led.urdf.xacro
+[4.718s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/tof.urdf.xacro
+[4.719s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/arm.urdf.xacro
+[4.720s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/camera.urdf.xacro
+[4.720s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/intelligent_controller.urdf.xacro
+[4.720s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/urdf/robomaster_ep.urdf.xacro
+[4.721s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/launch
+[4.721s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/launch/model.launch.py
+[4.722s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/launch/main.launch
+[4.722s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes
+[4.722s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_6.dae
+[4.727s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_1.dae
+[4.731s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led7.dae
+[4.732s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_base.dae
+[4.735s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal.dae
+[4.739s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_collision.dae
+[4.740s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_5.dae
+[4.743s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_0.dae
+[4.744s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/controller.dae
+[4.749s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_6.dae
+[4.751s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_5.dae
+[4.752s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_6_collision.dae
+[4.753s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_base.dae
+[4.759s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/EP_all_01_b.png
+[4.765s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_1.dae
+[4.767s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/left_hit_sensor.dae
+[4.769s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_4.dae
+[4.772s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/controller_cover.dae
+[4.774s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/endpoint_bracket.dae
+[4.777s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_7_collision.dae
+[4.778s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_7.dae
+[4.782s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_6.dae
+[4.785s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_1_collision.dae
+[4.786s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_2.dae
+[4.790s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_2.dae
+[4.791s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_gun_collision.dae
+[4.794s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/left_led.dae
+[4.797s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/front_led.dae
+[4.801s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/speaker.dae
+[4.803s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_4.dae
+[4.807s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_1.dae
+[4.809s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/battery_pin_right.dae
+[4.815s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_2_bar_1.dae
+[4.821s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/chassis.dae
+[4.878s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_3.dae
+[4.880s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/led.dae
+[4.883s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/battery_pin_left.dae
+[4.887s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_collision.dae
+[4.890s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/base_collision.dae
+[4.897s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/extension_support.dae
+[4.897s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_2_collision.dae
+[4.899s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod.dae
+[4.901s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_5_collision.dae
+[4.904s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_5.dae
+[4.908s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_1_collision.dae
+[4.909s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_base_collision.dae
+[4.912s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/front_right_wheel.dae
+[4.917s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_base_collision.dae
+[4.919s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_2_collision.dae
+[4.922s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/front_left_wheel.dae
+[4.931s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_3.dae
+[4.932s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/TOP_Base_Color.png
+[4.935s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/front_hit_sensor.dae
+[4.939s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_6.dae
+[4.941s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/triangle_collision.dae
+[4.942s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_4_collision.dae
+[4.944s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_1.dae
+[4.946s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_hit_sensor.dae
+[4.948s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_armor.dae
+[4.951s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/TOP_Normal_OpenGL.png.001.png
+[4.960s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_armor.dae
+[4.962s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_4.dae
+[4.965s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/extension_base.dae
+[4.970s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_gun.dae
+[4.973s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_1.dae
+[4.976s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/camera.dae
+[4.978s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_4.dae
+[4.982s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_5_collision.dae
+[4.983s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_7.dae
+[4.984s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led.dae
+[4.986s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rear_right_wheel.dae
+[4.992s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_7.dae
+[4.993s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_2.dae
+[4.995s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_top.dae
+[5.001s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_magazin.dae
+[5.002s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/speaker_collision.dae
+[5.004s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_3_collision.dae
+[5.005s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_4_collision.dae
+[5.006s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_6_collision.dae
+[5.007s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/triangle.dae
+[5.010s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_2.dae
+[5.012s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/wifi_antenna_left.dae
+[5.014s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/left_servo.dae
+[5.017s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_1_cylinder.dae
+[5.020s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/TOP_Base_Color.png.001.png
+[5.023s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_top_collision.dae
+[5.025s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_collision.dae
+[5.026s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led.dae
+[5.028s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/arm_2_bar_2.dae
+[5.029s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/hit_sensor.dae
+[5.034s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_base.dae
+[5.040s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/wheel.dae
+[5.047s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_magazin_collision.dae
+[5.049s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rear_led.dae
+[5.052s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/endpoint_bracket_collision.dae
+[5.054s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/battery.dae
+[5.056s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/armor.dae
+[5.061s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_5.dae
+[5.064s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_2_collision.dae
+[5.066s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_3.dae
+[5.070s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_left_7.dae
+[5.071s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_2_collision.dae
+[5.072s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/TOP_Normal_OpenGL.png
+[5.084s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/blaster_bug.dae
+[5.086s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_0.dae
+[5.089s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_gripper_2.dae
+[5.093s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rod_2.dae
+[5.095s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_side.dae
+[5.097s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_led.dae
+[5.101s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/wifi_antenna_right.dae
+[5.103s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rear_left_wheel.dae
+[5.108s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_1.dae
+[5.109s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/gripper_base_collision.dae
+[5.110s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/intelligent_controller.dae
+[5.115s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/right_servo.dae
+[5.119s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/meshes/rear_hit_sensor.dae
+[5.123s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/ament_index/resource_index/package_run_dependencies/robomaster_description
+[5.124s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/ament_index/resource_index/parent_prefix_path/robomaster_description
+[5.124s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/environment/ament_prefix_path.sh
+[5.125s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/environment/ament_prefix_path.dsv
+[5.125s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/environment/path.sh
+[5.126s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/environment/path.dsv
+[5.127s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/local_setup.bash
+[5.127s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/local_setup.sh
+[5.128s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/local_setup.zsh
+[5.128s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/local_setup.dsv
+[5.129s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.dsv
+[5.129s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/ament_index/resource_index/packages/robomaster_description
+[5.130s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/cmake/robomaster_descriptionConfig.cmake
+[5.132s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/cmake/robomaster_descriptionConfig-version.cmake
+[5.132s] -- Installing: /home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.xml
+[5.139s] Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/stefano/Robomaster_WS/build/robomaster_description
