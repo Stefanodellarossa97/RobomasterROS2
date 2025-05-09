@@ -1,0 +1,3 @@
+[console_scripts]
+laser_echo_publisher = laser_echo_publisher.laser_echo_publisher:main
+

@@ -1,0 +1,24 @@
+[3.609s] Invoking command in '/home/stefano/Robomaster_WS/src/camera_utils': PYTHONPATH=/home/stefano/Robomaster_WS/build/camera_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_utils build --build-base /home/stefano/Robomaster_WS/build/camera_utils/build install --record /home/stefano/Robomaster_WS/build/camera_utils/install.log --single-version-externally-managed install_data
+[4.390s] running egg_info
+[4.393s] writing ../../build/camera_utils/camera_utils.egg-info/PKG-INFO
+[4.395s] writing dependency_links to ../../build/camera_utils/camera_utils.egg-info/dependency_links.txt
+[4.397s] writing entry points to ../../build/camera_utils/camera_utils.egg-info/entry_points.txt
+[4.397s] writing requirements to ../../build/camera_utils/camera_utils.egg-info/requires.txt
+[4.397s] writing top-level names to ../../build/camera_utils/camera_utils.egg-info/top_level.txt
+[4.399s] reading manifest file '../../build/camera_utils/camera_utils.egg-info/SOURCES.txt'
+[4.401s] writing manifest file '../../build/camera_utils/camera_utils.egg-info/SOURCES.txt'
+[4.402s] running build
+[4.403s] running build_py
+[4.404s] copying camera_utils/camera_republisher.py -> /home/stefano/Robomaster_WS/build/camera_utils/build/lib/camera_utils
+[4.404s] running install
+[4.405s] running install_lib
+[4.406s] copying /home/stefano/Robomaster_WS/build/camera_utils/build/lib/camera_utils/camera_republisher.py -> /home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages/camera_utils
+[4.408s] byte-compiling /home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages/camera_utils/camera_republisher.py to camera_republisher.cpython-310.pyc
+[4.410s] running install_data
+[4.410s] running install_egg_info
+[4.415s] removing '/home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages/camera_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[4.416s] Copying ../../build/camera_utils/camera_utils.egg-info to /home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages/camera_utils-0.0.0-py3.10.egg-info
+[4.418s] running install_scripts
+[4.485s] Installing camera_republisher script to /home/stefano/Robomaster_WS/install/camera_utils/lib/camera_utils
+[4.486s] writing list of installed files to '/home/stefano/Robomaster_WS/build/camera_utils/install.log'
+[4.555s] Invoked command in '/home/stefano/Robomaster_WS/src/camera_utils' returned '0': PYTHONPATH=/home/stefano/Robomaster_WS/build/camera_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_utils build --build-base /home/stefano/Robomaster_WS/build/camera_utils/build install --record /home/stefano/Robomaster_WS/build/camera_utils/install.log --single-version-externally-managed install_data

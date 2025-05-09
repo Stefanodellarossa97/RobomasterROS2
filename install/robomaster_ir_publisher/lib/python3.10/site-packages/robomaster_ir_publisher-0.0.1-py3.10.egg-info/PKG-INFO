@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robomaster-ir-publisher
+Version: 0.0.1
+Summary: Publishes IR sensor readings from RoboMaster EP to /laser_echo
+Home-page: UNKNOWN
+Maintainer: Stefano Dellarossa
+Maintainer-email: stefano@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

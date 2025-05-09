@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robomaster_msgs__py",
+		"source" : "/home/stefano/Robomaster_WS/src/build/robomaster_msgs/robomaster_msgs__py"
+	}
+}

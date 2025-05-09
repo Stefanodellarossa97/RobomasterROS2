@@ -1,0 +1,589 @@
+[0.336s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.336s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75b78f7a4880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75b78f76bd60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75b78f76bd60>>, mixin_verb=('build',))
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.853s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/stefano/Robomaster_WS'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_utils) by extension 'ros'
+[0.898s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_utils' with type 'ros.ament_python' and name 'camera_utils'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extension 'ignore_ament_install'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extensions ['colcon_pkg']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extension 'colcon_pkg'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extensions ['colcon_meta']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ir_publisher) by extension 'ros'
+[0.900s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robomaster_ir_publisher' with type 'ros.ament_python' and name 'robomaster_ir_publisher'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'ignore_ament_install'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extensions ['colcon_pkg']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'colcon_pkg'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extensions ['colcon_meta']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'colcon_meta'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extensions ['ros']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'ros'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extensions ['cmake', 'python']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'cmake'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'python'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extensions ['python_setup_py']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros) by extension 'python_setup_py'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extensions ['python_setup_py']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker) by extension 'python_setup_py'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'ros'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extensions ['cmake', 'python']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'cmake'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'python'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extensions ['python_setup_py']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy) by extension 'python_setup_py'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extensions ['ignore', 'ignore_ament_install']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'ignore'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'ignore_ament_install'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extensions ['colcon_pkg']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'ros'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extensions ['cmake', 'python']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'cmake'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'python'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extensions ['python_setup_py']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/ep) by extension 'python_setup_py'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'ros'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extensions ['cmake', 'python']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'cmake'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'python'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extensions ['python_setup_py']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/foxy/s1) by extension 'python_setup_py'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'ros'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extensions ['cmake', 'python']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'cmake'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'python'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extensions ['python_setup_py']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic) by extension 'python_setup_py'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'ignore_ament_install'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extensions ['colcon_pkg']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'colcon_pkg'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extensions ['colcon_meta']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'colcon_meta'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extensions ['ros']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'ros'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extensions ['cmake', 'python']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'cmake'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'python'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extensions ['python_setup_py']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/ep) by extension 'python_setup_py'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'ros'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extensions ['cmake', 'python']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'cmake'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'python'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extensions ['python_setup_py']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/galactic/s1) by extension 'python_setup_py'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'ros'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extensions ['cmake', 'python']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'cmake'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'python'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extensions ['python_setup_py']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble) by extension 'python_setup_py'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'ros'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extensions ['cmake', 'python']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'cmake'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'python'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extensions ['python_setup_py']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/ep) by extension 'python_setup_py'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'ros'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extensions ['cmake', 'python']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'cmake'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'python'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extensions ['python_setup_py']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/humble/s1) by extension 'python_setup_py'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'ros'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extensions ['cmake', 'python']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'cmake'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'python'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extensions ['python_setup_py']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron) by extension 'python_setup_py'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extensions ['ignore', 'ignore_ament_install']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'ignore'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'ignore_ament_install'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extensions ['colcon_pkg']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'ros'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extensions ['cmake', 'python']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'cmake'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'python'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extensions ['python_setup_py']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/ep) by extension 'python_setup_py'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extensions ['colcon_pkg']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'colcon_pkg'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extensions ['colcon_meta']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'colcon_meta'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extensions ['ros']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'ros'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extensions ['cmake', 'python']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'cmake'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'python'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extensions ['python_setup_py']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docker/iron/s1) by extension 'python_setup_py'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'colcon_pkg'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extensions ['colcon_meta']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'colcon_meta'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extensions ['ros']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'ros'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extensions ['cmake', 'python']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'cmake'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'python'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extensions ['python_setup_py']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs) by extension 'python_setup_py'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'ignore_ament_install'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extensions ['colcon_pkg']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'colcon_pkg'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extensions ['colcon_meta']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'colcon_meta'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extensions ['ros']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'ros'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extensions ['cmake', 'python']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'cmake'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'python'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extensions ['python_setup_py']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/docs/robomaster_ros_modules) by extension 'python_setup_py'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extension 'ignore_ament_install'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extension 'colcon_pkg'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extensions ['colcon_meta']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_description) by extension 'ros'
+[0.932s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robomaster_ros/robomaster_description' with type 'ros.ament_cmake' and name 'robomaster_description'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extension 'ignore_ament_install'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extensions ['colcon_pkg']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extension 'colcon_pkg'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extensions ['colcon_meta']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extension 'colcon_meta'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extensions ['ros']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_msgs) by extension 'ros'
+[0.934s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robomaster_ros/robomaster_msgs' with type 'ros.ament_cmake' and name 'robomaster_msgs'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extension 'ignore'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extension 'ignore_ament_install'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extensions ['colcon_pkg']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extension 'colcon_pkg'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extensions ['colcon_meta']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extension 'colcon_meta'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extensions ['ros']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/robomaster_ros/robomaster_ros) by extension 'ros'
+[0.936s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robomaster_ros/robomaster_ros' with type 'ros.ament_python' and name 'robomaster_ros'
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.016s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/stefano/Robomaster_WS/install
+[1.018s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/stefano/turtlebot3_ws/install
+[1.021s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/stefano/Webots_ros2/install
+[1.029s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[1.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'cmake_target' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'cmake_clean_first' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'cmake_force_configure' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'ament_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'camera_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.167s] DEBUG:colcon.colcon_core.verb:Building package 'camera_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stefano/Robomaster_WS/build/camera_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stefano/Robomaster_WS/install/camera_utils', 'merge_install': False, 'path': '/home/stefano/Robomaster_WS/src/camera_utils', 'symlink_install': False, 'test_result_base': None}
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'cmake_args' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'cmake_target' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.170s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.170s] Level 5:colcon.colcon_core.verb:set package 'robomaster_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.170s] DEBUG:colcon.colcon_core.verb:Building package 'robomaster_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stefano/Robomaster_WS/build/robomaster_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stefano/Robomaster_WS/install/robomaster_description', 'merge_install': False, 'path': '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_description', 'symlink_install': False, 'test_result_base': None}
+[1.171s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'cmake_args' from command line to 'None'
+[1.171s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'cmake_target' from command line to 'None'
+[1.171s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.171s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.171s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.172s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ir_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.172s] DEBUG:colcon.colcon_core.verb:Building package 'robomaster_ir_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stefano/Robomaster_WS/build/robomaster_ir_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher', 'merge_install': False, 'path': '/home/stefano/Robomaster_WS/src/robomaster_ir_publisher', 'symlink_install': False, 'test_result_base': None}
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'cmake_target' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.173s] Level 5:colcon.colcon_core.verb:set package 'robomaster_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.173s] DEBUG:colcon.colcon_core.verb:Building package 'robomaster_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stefano/Robomaster_WS/build/robomaster_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stefano/Robomaster_WS/install/robomaster_msgs', 'merge_install': False, 'path': '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'cmake_args' from command line to 'None'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'cmake_target' from command line to 'None'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.175s] Level 5:colcon.colcon_core.verb:set package 'robomaster_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.175s] DEBUG:colcon.colcon_core.verb:Building package 'robomaster_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/stefano/Robomaster_WS/build/robomaster_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/stefano/Robomaster_WS/install/robomaster_ros', 'merge_install': False, 'path': '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros', 'symlink_install': False, 'test_result_base': None}
+[1.175s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs' with build type 'ament_cmake'
+[1.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs'
+[1.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.218s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stefano/Robomaster_WS/src/camera_utils' with build type 'ament_python'
+[1.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_utils', 'ament_prefix_path')
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/hook/ament_prefix_path.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/hook/ament_prefix_path.dsv'
+[1.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/hook/ament_prefix_path.sh'
+[1.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_description' with build type 'ament_cmake'
+[1.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_description'
+[1.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.296s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stefano/Robomaster_WS/src/robomaster_ir_publisher' with build type 'ament_python'
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_ir_publisher', 'ament_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/hook/ament_prefix_path.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/hook/ament_prefix_path.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/hook/ament_prefix_path.sh'
+[1.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/stefano/Robomaster_WS/build/robomaster_msgs -- -j8 -l8
+[2.212s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stefano/Robomaster_WS/src/camera_utils'
+[2.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/stefano/Robomaster_WS/build/robomaster_description -- -j8 -l8
+[3.104s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'robomaster_ir_publisher' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[3.105s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'robomaster_ir_publisher' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[3.106s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stefano/Robomaster_WS/src/robomaster_ir_publisher'
+[3.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/stefano/Robomaster_WS/build/robomaster_description -- -j8 -l8
+[3.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/stefano/Robomaster_WS/build/robomaster_description
+[3.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --build /home/stefano/Robomaster_WS/build/robomaster_msgs -- -j8 -l8
+[3.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/build/robomaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/stefano/Robomaster_WS/build/robomaster_msgs
+[3.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomaster_description)
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description' for CMake module files
+[3.416s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description' for CMake config files
+[3.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_description', 'cmake_prefix_path')
+[3.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/hook/cmake_prefix_path.ps1'
+[3.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/hook/cmake_prefix_path.dsv'
+[3.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/hook/cmake_prefix_path.sh'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/bin'
+[3.483s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/lib/pkgconfig/robomaster_description.pc'
+[3.484s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/lib/python3.10/site-packages'
+[3.485s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/bin'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.ps1'
+[3.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.dsv'
+[3.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.sh'
+[3.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.bash'
+[3.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.zsh'
+[3.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/robomaster_description/share/colcon-core/packages/robomaster_description)
+[3.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/stefano/Robomaster_WS/build/robomaster_description
+[3.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomaster_description)
+[3.514s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description' for CMake module files
+[3.521s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description' for CMake config files
+[3.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_description', 'cmake_prefix_path')
+[3.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/hook/cmake_prefix_path.ps1'
+[3.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/hook/cmake_prefix_path.dsv'
+[3.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/hook/cmake_prefix_path.sh'
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/bin'
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/lib/pkgconfig/robomaster_description.pc'
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/lib/python3.10/site-packages'
+[3.540s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_description/bin'
+[3.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.ps1'
+[3.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.sh'
+[3.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.bash'
+[3.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_description/share/robomaster_description/package.zsh'
+[3.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/robomaster_description/share/colcon-core/packages/robomaster_description)
+[3.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomaster_msgs)
+[3.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefano/Robomaster_WS/install/robomaster_ros:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher:/home/stefano/Robomaster_WS/install/camera_utils:/home/stefano/turtlebot3_ws/install/turtlebot3_teleop:/home/stefano/turtlebot3_ws/install/turtlebot3_example:/home/stefano/Webots_ros2/install/webots_ros2:/home/stefano/Webots_ros2/install/webots_ros2_universal_robot:/home/stefano/Webots_ros2/install/webots_ros2_turtlebot:/home/stefano/Webots_ros2/install/webots_ros2_tiago:/home/stefano/Webots_ros2/install/webots_ros2_tests:/home/stefano/Webots_ros2/install/webots_ros2_tesla:/home/stefano/Webots_ros2/install/webots_ros2_mavic:/home/stefano/Webots_ros2/install/webots_ros2_husarion:/home/stefano/Webots_ros2/install/webots_ros2_epuck:/home/stefano/Webots_ros2/install/webots_ros2_crazyflie:/home/stefano/Webots_ros2/install/webots_ros2_importer:/opt/ros/humble /usr/bin/cmake --install /home/stefano/Robomaster_WS/build/robomaster_msgs
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs' for CMake module files
+[3.814s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs' for CMake config files
+[3.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_msgs', 'cmake_prefix_path')
+[3.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/cmake_prefix_path.ps1'
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/cmake_prefix_path.dsv'
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/cmake_prefix_path.sh'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/lib'
+[3.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_msgs', 'ld_library_path_lib')
+[3.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/ld_library_path_lib.ps1'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/ld_library_path_lib.dsv'
+[3.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/ld_library_path_lib.sh'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/bin'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/lib/pkgconfig/robomaster_msgs.pc'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/lib/python3.10/site-packages'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/bin'
+[3.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.ps1'
+[3.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.dsv'
+[3.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.sh'
+[3.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.bash'
+[3.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.zsh'
+[3.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/robomaster_msgs/share/colcon-core/packages/robomaster_msgs)
+[3.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomaster_msgs)
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs' for CMake module files
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs' for CMake config files
+[3.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_msgs', 'cmake_prefix_path')
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/cmake_prefix_path.ps1'
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/cmake_prefix_path.dsv'
+[3.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/cmake_prefix_path.sh'
+[3.836s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/lib'
+[3.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_msgs', 'ld_library_path_lib')
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/ld_library_path_lib.ps1'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/ld_library_path_lib.dsv'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/hook/ld_library_path_lib.sh'
+[3.838s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/bin'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/lib/pkgconfig/robomaster_msgs.pc'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/lib/python3.10/site-packages'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_msgs/bin'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.ps1'
+[3.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.dsv'
+[3.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.sh'
+[3.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.bash'
+[3.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_msgs/share/robomaster_msgs/package.zsh'
+[3.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/robomaster_msgs/share/colcon-core/packages/robomaster_msgs)
+[3.846s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros' with build type 'ament_python'
+[3.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_ros', 'ament_prefix_path')
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/hook/ament_prefix_path.ps1'
+[3.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/hook/ament_prefix_path.dsv'
+[3.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/hook/ament_prefix_path.sh'
+[3.861s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.861s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.787s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros'
+[4.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/src/camera_utils': PYTHONPATH=/home/stefano/Robomaster_WS/build/camera_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_utils build --build-base /home/stefano/Robomaster_WS/build/camera_utils/build install --record /home/stefano/Robomaster_WS/build/camera_utils/install.log --single-version-externally-managed install_data
+[4.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/src/robomaster_ir_publisher': PYTHONPATH=/home/stefano/Robomaster_WS/build/robomaster_ir_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robomaster_ir_publisher build --build-base /home/stefano/Robomaster_WS/build/robomaster_ir_publisher/build install --record /home/stefano/Robomaster_WS/build/robomaster_ir_publisher/install.log --single-version-externally-managed
+[5.723s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils' for CMake module files
+[5.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/src/camera_utils' returned '0': PYTHONPATH=/home/stefano/Robomaster_WS/build/camera_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_utils build --build-base /home/stefano/Robomaster_WS/build/camera_utils/build install --record /home/stefano/Robomaster_WS/build/camera_utils/install.log --single-version-externally-managed install_data
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils' for CMake config files
+[5.728s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils/lib'
+[5.729s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils/bin'
+[5.729s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils/lib/pkgconfig/camera_utils.pc'
+[5.729s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils/lib/python3.10/site-packages'
+[5.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_utils', 'pythonpath')
+[5.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/hook/pythonpath.ps1'
+[5.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/hook/pythonpath.dsv'
+[5.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/hook/pythonpath.sh'
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/camera_utils/bin'
+[5.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_utils)
+[5.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/package.ps1'
+[5.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/package.dsv'
+[5.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/package.sh'
+[5.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/package.bash'
+[5.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/camera_utils/share/camera_utils/package.zsh'
+[5.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/camera_utils/share/colcon-core/packages/camera_utils)
+[5.742s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher' for CMake module files
+[5.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/src/robomaster_ir_publisher' returned '0': PYTHONPATH=/home/stefano/Robomaster_WS/build/robomaster_ir_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robomaster_ir_publisher build --build-base /home/stefano/Robomaster_WS/build/robomaster_ir_publisher/build install --record /home/stefano/Robomaster_WS/build/robomaster_ir_publisher/install.log --single-version-externally-managed
+[5.744s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher' for CMake config files
+[5.745s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/lib'
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/bin'
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/lib/pkgconfig/robomaster_ir_publisher.pc'
+[5.746s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/lib/python3.10/site-packages'
+[5.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_ir_publisher', 'pythonpath')
+[5.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/hook/pythonpath.ps1'
+[5.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/hook/pythonpath.dsv'
+[5.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/hook/pythonpath.sh'
+[5.750s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/bin'
+[5.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomaster_ir_publisher)
+[5.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/package.ps1'
+[5.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/package.dsv'
+[5.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/package.sh'
+[5.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/package.bash'
+[5.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/robomaster_ir_publisher/package.zsh'
+[5.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/robomaster_ir_publisher/share/colcon-core/packages/robomaster_ir_publisher)
+[5.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros': CMAKE_PREFIX_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs:/home/stefano/Robomaster_WS/install/turtlesim:/home/stefano/Robomaster_WS/install/robomaster_description:/home/stefano/turtlebot3_ws/install/turtlebot3:/home/stefano/turtlebot3_ws/install/turtlebot3_simulations:/home/stefano/turtlebot3_ws/install/turtlebot3_bringup:/home/stefano/turtlebot3_ws/install/turtlebot3_node:/home/stefano/turtlebot3_ws/install/turtlebot3_navigation2:/home/stefano/turtlebot3_ws/install/turtlebot3_fake_node:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs:/home/stefano/turtlebot3_ws/install/turtlebot3_gazebo:/home/stefano/turtlebot3_ws/install/turtlebot3_description:/home/stefano/turtlebot3_ws/install/turtlebot3_cartographer:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_examples:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/stefano/turtlebot3_ws/install/dynamixel_sdk:/home/stefano/Webots_ros2/install/webots_ros2_control:/home/stefano/Webots_ros2/install/webots_ros2_driver:/home/stefano/Webots_ros2/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs/lib:/home/stefano/Robomaster_WS/install/turtlesim/lib:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk/lib:/home/stefano/Webots_ros2/install/webots_ros2_control/lib:/home/stefano/Webots_ros2/install/webots_ros2_driver/lib:/home/stefano/Webots_ros2/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/stefano/Robomaster_WS/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /home/stefano/Robomaster_WS/build/robomaster_ros/build install --record /home/stefano/Robomaster_WS/build/robomaster_ros/install.log --single-version-externally-managed install_data
+[6.835s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros' for CMake module files
+[6.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros' returned '0': CMAKE_PREFIX_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs:/home/stefano/Robomaster_WS/install/turtlesim:/home/stefano/Robomaster_WS/install/robomaster_description:/home/stefano/turtlebot3_ws/install/turtlebot3:/home/stefano/turtlebot3_ws/install/turtlebot3_simulations:/home/stefano/turtlebot3_ws/install/turtlebot3_bringup:/home/stefano/turtlebot3_ws/install/turtlebot3_node:/home/stefano/turtlebot3_ws/install/turtlebot3_navigation2:/home/stefano/turtlebot3_ws/install/turtlebot3_fake_node:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs:/home/stefano/turtlebot3_ws/install/turtlebot3_gazebo:/home/stefano/turtlebot3_ws/install/turtlebot3_description:/home/stefano/turtlebot3_ws/install/turtlebot3_cartographer:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_examples:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/stefano/turtlebot3_ws/install/dynamixel_sdk:/home/stefano/Webots_ros2/install/webots_ros2_control:/home/stefano/Webots_ros2/install/webots_ros2_driver:/home/stefano/Webots_ros2/install/webots_ros2_msgs LD_LIBRARY_PATH=/home/stefano/Robomaster_WS/install/robomaster_msgs/lib:/home/stefano/Robomaster_WS/install/turtlesim/lib:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk/lib:/home/stefano/Webots_ros2/install/webots_ros2_control/lib:/home/stefano/Webots_ros2/install/webots_ros2_driver/lib:/home/stefano/Webots_ros2/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/stefano/Robomaster_WS/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /home/stefano/Robomaster_WS/build/robomaster_ros/build install --record /home/stefano/Robomaster_WS/build/robomaster_ros/install.log --single-version-externally-managed install_data
+[6.837s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros' for CMake config files
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros/lib'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros/bin'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros/lib/pkgconfig/robomaster_ros.pc'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages'
+[6.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('robomaster_ros', 'pythonpath')
+[6.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/hook/pythonpath.ps1'
+[6.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/hook/pythonpath.dsv'
+[6.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/hook/pythonpath.sh'
+[6.844s] Level 1:colcon.colcon_core.environment:checking '/home/stefano/Robomaster_WS/install/robomaster_ros/bin'
+[6.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robomaster_ros)
+[6.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/package.ps1'
+[6.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/package.dsv'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/package.sh'
+[6.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/package.bash'
+[6.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/stefano/Robomaster_WS/install/robomaster_ros/share/robomaster_ros/package.zsh'
+[6.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/stefano/Robomaster_WS/install/robomaster_ros/share/colcon-core/packages/robomaster_ros)
+[6.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.852s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.870s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.911s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stefano/Robomaster_WS/install/local_setup.ps1'
+[6.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stefano/Robomaster_WS/install/_local_setup_util_ps1.py'
+[6.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stefano/Robomaster_WS/install/setup.ps1'
+[6.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stefano/Robomaster_WS/install/local_setup.sh'
+[6.931s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/stefano/Robomaster_WS/install/_local_setup_util_sh.py'
+[6.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stefano/Robomaster_WS/install/setup.sh'
+[6.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stefano/Robomaster_WS/install/local_setup.bash'
+[6.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stefano/Robomaster_WS/install/setup.bash'
+[6.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/stefano/Robomaster_WS/install/local_setup.zsh'
+[6.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/stefano/Robomaster_WS/install/setup.zsh'

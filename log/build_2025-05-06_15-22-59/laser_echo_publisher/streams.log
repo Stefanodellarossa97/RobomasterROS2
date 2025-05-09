@@ -1,0 +1,23 @@
+[1.808s] Invoking command in '/home/stefano/Robomaster_WS/src/laser_echo_publisher': PYTHONPATH=/home/stefano/Robomaster_WS/build/laser_echo_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_echo_publisher build --build-base /home/stefano/Robomaster_WS/build/laser_echo_publisher/build install --record /home/stefano/Robomaster_WS/build/laser_echo_publisher/install.log --single-version-externally-managed install_data
+[2.476s] running egg_info
+[2.476s] writing ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/PKG-INFO
+[2.478s] writing dependency_links to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/dependency_links.txt
+[2.478s] writing entry points to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/entry_points.txt
+[2.478s] writing requirements to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/requires.txt
+[2.479s] writing top-level names to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/top_level.txt
+[2.482s] reading manifest file '../../build/laser_echo_publisher/laser_echo_publisher.egg-info/SOURCES.txt'
+[2.484s] writing manifest file '../../build/laser_echo_publisher/laser_echo_publisher.egg-info/SOURCES.txt'
+[2.485s] running build
+[2.485s] running build_py
+[2.485s] copying laser_echo_publisher/laser_echo_publisher.py -> /home/stefano/Robomaster_WS/build/laser_echo_publisher/build/lib/laser_echo_publisher
+[2.486s] running install
+[2.486s] running install_lib
+[2.487s] copying /home/stefano/Robomaster_WS/build/laser_echo_publisher/build/lib/laser_echo_publisher/laser_echo_publisher.py -> /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages/laser_echo_publisher
+[2.488s] byte-compiling /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages/laser_echo_publisher/laser_echo_publisher.py to laser_echo_publisher.cpython-310.pyc
+[2.489s] running install_data
+[2.490s] running install_egg_info
+[2.494s] Copying ../../build/laser_echo_publisher/laser_echo_publisher.egg-info to /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages/laser_echo_publisher-0.0.1-py3.10.egg-info
+[2.497s] running install_scripts
+[2.541s] Installing laser_echo_publisher script to /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/laser_echo_publisher
+[2.541s] writing list of installed files to '/home/stefano/Robomaster_WS/build/laser_echo_publisher/install.log'
+[2.563s] Invoked command in '/home/stefano/Robomaster_WS/src/laser_echo_publisher' returned '0': PYTHONPATH=/home/stefano/Robomaster_WS/build/laser_echo_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/laser_echo_publisher build --build-base /home/stefano/Robomaster_WS/build/laser_echo_publisher/build install --record /home/stefano/Robomaster_WS/build/laser_echo_publisher/install.log --single-version-externally-managed install_data

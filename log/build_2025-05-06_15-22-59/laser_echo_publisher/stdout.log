@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/requires.txt
+writing top-level names to ../../build/laser_echo_publisher/laser_echo_publisher.egg-info/top_level.txt
+reading manifest file '../../build/laser_echo_publisher/laser_echo_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/laser_echo_publisher/laser_echo_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+copying laser_echo_publisher/laser_echo_publisher.py -> /home/stefano/Robomaster_WS/build/laser_echo_publisher/build/lib/laser_echo_publisher
+running install
+running install_lib
+copying /home/stefano/Robomaster_WS/build/laser_echo_publisher/build/lib/laser_echo_publisher/laser_echo_publisher.py -> /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages/laser_echo_publisher
+byte-compiling /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages/laser_echo_publisher/laser_echo_publisher.py to laser_echo_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/laser_echo_publisher/laser_echo_publisher.egg-info to /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/python3.10/site-packages/laser_echo_publisher-0.0.1-py3.10.egg-info
+running install_scripts
+Installing laser_echo_publisher script to /home/stefano/Robomaster_WS/install/laser_echo_publisher/lib/laser_echo_publisher
+writing list of installed files to '/home/stefano/Robomaster_WS/build/laser_echo_publisher/install.log'
