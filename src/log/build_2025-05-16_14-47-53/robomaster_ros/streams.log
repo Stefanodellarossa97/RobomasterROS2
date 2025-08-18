@@ -1,0 +1,30 @@
+[2.149s] Invoking command in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros': LD_LIBRARY_PATH=/home/stefano/Robomaster_WS/src/install/robomaster_msgs/lib:/home/stefano/Robomaster_WS/install/turtlesim/lib:/home/stefano/Robomaster_WS/install/robomaster_msgs/lib:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk/lib:/home/stefano/Webots_ros2/install/webots_ros2_control/lib:/home/stefano/Webots_ros2/install/webots_ros2_driver/lib:/home/stefano/Webots_ros2/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/stefano/Robomaster_WS/src/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robomaster_ros build --build-base /home/stefano/Robomaster_WS/src/build/robomaster_ros/build install --record /home/stefano/Robomaster_WS/src/build/robomaster_ros/install.log --single-version-externally-managed install_data
+[2.915s] running egg_info
+[2.917s] writing ../../build/robomaster_ros/robomaster_ros.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../build/robomaster_ros/robomaster_ros.egg-info/dependency_links.txt
+[2.919s] writing entry points to ../../build/robomaster_ros/robomaster_ros.egg-info/entry_points.txt
+[2.919s] writing requirements to ../../build/robomaster_ros/robomaster_ros.egg-info/requires.txt
+[2.920s] writing top-level names to ../../build/robomaster_ros/robomaster_ros.egg-info/top_level.txt
+[2.926s] reading manifest file '../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[2.930s] writing manifest file '../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[2.931s] running build
+[2.931s] running build_py
+[2.937s] running install
+[2.938s] running install_lib
+[2.948s] running install_data
+[2.949s] copying config/mapper_params_online_async.yaml -> /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config
+[2.951s] running install_egg_info
+[2.955s] removing '/home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[2.959s] Copying ../../build/robomaster_ros/robomaster_ros.egg-info to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info
+[2.960s] running install_scripts
+[3.013s] Installing connect script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.015s] Installing discover script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.016s] Installing display_battery script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.016s] Installing h264_decoder script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.016s] Installing move script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.017s] Installing play_audio script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.018s] Installing play_opus script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.018s] Installing robomaster_driver script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.020s] Installing state_publisher script to /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros
+[3.024s] writing list of installed files to '/home/stefano/Robomaster_WS/src/build/robomaster_ros/install.log'
+[3.062s] Invoked command in '/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_ros' returned '0': LD_LIBRARY_PATH=/home/stefano/Robomaster_WS/src/install/robomaster_msgs/lib:/home/stefano/Robomaster_WS/install/turtlesim/lib:/home/stefano/Robomaster_WS/install/robomaster_msgs/lib:/home/stefano/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/stefano/turtlebot3_ws/install/dynamixel_sdk/lib:/home/stefano/Webots_ros2/install/webots_ros2_control/lib:/home/stefano/Webots_ros2/install/webots_ros2_driver/lib:/home/stefano/Webots_ros2/install/webots_ros2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/stefano/Robomaster_WS/src/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robomaster_ros build --build-base /home/stefano/Robomaster_WS/src/build/robomaster_ros/build install --record /home/stefano/Robomaster_WS/src/build/robomaster_ros/install.log --single-version-externally-managed install_data

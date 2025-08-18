@@ -1,4 +1,1 @@
-# Encapsulates serial communication received or to be sent through UART
-
-std_msgs/Header header  # header with the time stamp of the update
-uint8[] data            # the payload
+/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/msg/Serial.msg

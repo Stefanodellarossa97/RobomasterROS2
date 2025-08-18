@@ -1,0 +1,3 @@
+[console_scripts]
+IR_to_LaserScan = sim_lidar.IR_to_LaserScan:main
+

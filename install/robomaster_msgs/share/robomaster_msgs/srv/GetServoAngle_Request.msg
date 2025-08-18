@@ -1,3 +1,1 @@
-# Command to read the servo angle.
-
-uint8 index   # ID of the servo (between 0 and 2)
+/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_cmake/srv/GetServoAngle_Request.msg

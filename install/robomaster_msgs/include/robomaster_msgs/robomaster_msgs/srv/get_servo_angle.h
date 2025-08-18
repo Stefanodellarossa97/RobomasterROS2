@@ -1,12 +1,1 @@
-// generated from rosidl_generator_c/resource/idl.h.em
-// with input from robomaster_msgs:srv/GetServoAngle.idl
-// generated code does not contain a copyright notice
-
-#ifndef ROBOMASTER_MSGS__SRV__GET_SERVO_ANGLE_H_
-#define ROBOMASTER_MSGS__SRV__GET_SERVO_ANGLE_H_
-
-#include "robomaster_msgs/srv/detail/get_servo_angle__struct.h"
-#include "robomaster_msgs/srv/detail/get_servo_angle__functions.h"
-#include "robomaster_msgs/srv/detail/get_servo_angle__type_support.h"
-
-#endif  // ROBOMASTER_MSGS__SRV__GET_SERVO_ANGLE_H_
+/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_generator_c/robomaster_msgs/srv/get_servo_angle.h

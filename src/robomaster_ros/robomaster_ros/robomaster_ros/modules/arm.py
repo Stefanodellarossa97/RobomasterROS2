@@ -34,10 +34,15 @@ def arm_joint_state(left_motor: float, right_motor: float) -> Dict[str, float]:
     #     'rod_2_joint': right_motor
     # }
     # Now that the urdf defines dependent joints, we can skip most of them
+    #return {
+    #    'arm_1_joint': right_motor,
+    #    'rod_joint': left_motor,
+    #    'rod_3_joint': right_motor - left_motor,
+    #}
     return {
-        'arm_1_joint': right_motor,
-        'rod_joint': left_motor,
-        'rod_3_joint': right_motor - left_motor,
+    	'arm_1_joint': -left_motor,
+    	'rod_joint': -right_motor,
+    	'rod_3_joint': -(- right_motor + left_motor)
     }
 
 

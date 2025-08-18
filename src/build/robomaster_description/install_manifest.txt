@@ -3,6 +3,7 @@
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/gimbal.urdf.xacro
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/gripper.urdf.xacro
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/extension.urdf.xacro
+/home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/model.urdf
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/wheel.urdf.xacro
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/led.urdf.xacro
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/tof.urdf.xacro
@@ -12,6 +13,7 @@
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/urdf/robomaster_ep.urdf.xacro
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/launch/model.launch.py
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/launch/main.launch
+/home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/launch/robomaster_view.launch.py
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/meshes/gripper_left_6.dae
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/meshes/arm_1.dae
 /home/stefano/Robomaster_WS/src/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led7.dae

@@ -7,4 +7,5 @@ move = robomaster_mover.move:main
 play_audio = robomaster_ros.play_audio:main
 play_opus = robomaster_ros.play_audio_opus:main
 robomaster_driver = robomaster_ros.robomaster_driver:main
+state_publisher = robomaster_ros.state_publisher:main
 

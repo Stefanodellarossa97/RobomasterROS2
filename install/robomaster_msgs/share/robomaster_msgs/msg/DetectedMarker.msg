@@ -1,4 +1,1 @@
-# Information about a marker detected using vision
-
-robomaster_msgs/RegionOfInterest roi  # bounding box
-string kind                           # the name of the marker
+/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/msg/DetectedMarker.msg

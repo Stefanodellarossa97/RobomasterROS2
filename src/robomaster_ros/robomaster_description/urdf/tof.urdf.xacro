@@ -3,7 +3,7 @@
 <robot xmlns:xacro="http://playerstage.sourceforge.net/gazebo/xmlschema/#xacro">
 
   <xacro:arg name="tof_0" default="false"/>
-  <xacro:arg name="tof_0_parent" default="base_link"/>
+  <xacro:arg name="tof_0_parent" default="front_hit_sensor_link"/>
   <xacro:arg name="tof_0_xyz" default="0 0 0"/>
   <xacro:arg name="tof_0_rpy" default="0 0 0"/>
   <xacro:arg name="tof_1" default="false"/>
@@ -19,7 +19,7 @@
   <xacro:arg name="tof_3_xyz" default="0 0 0"/>
   <xacro:arg name="tof_3_rpy" default="0 0 0"/>
 
-  <xacro:macro name="tof" params="tf_prefix='' index='0' parent='base_link' xyz='0 0 0' rpy='0 0 0'">
+  <xacro:macro name="tof" params="tf_prefix='' index='0' parent='front_hit_sensor_link' xyz='0 0 0' rpy='0 0 0'">
 
     <link name="${tf_prefix}tof_${index}_link">
       <visual name="tof">
@@ -42,7 +42,7 @@
   <xacro:macro name="add_tof" params="index tf_prefix=''">
     <xacro:if value="$(arg tof_${index})">
       <xacro:tof tf_prefix="${tf_prefix}" index="${index}" parent='$(arg tof_${index}_parent)'
-        xyz='$(arg tof_${index}_xyz)' rpy='$(arg tof_${index}_rpy)'/>
+        xyz='0.13 0 0.13' rpy='$(arg tof_${index}_rpy)'/>
     </xacro:if>
   </xacro:macro>
 

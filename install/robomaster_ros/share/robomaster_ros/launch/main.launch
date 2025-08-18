@@ -11,8 +11,8 @@
   <arg name="reconnect" default="true" description="Wait for reconnections"/>
 
   <arg name="arm" default="$(eval '\'$(var model)\' == \'ep\'')" description="Enable the arm module. Should not be enabled together with the servo module"/>
-  <arg name="left_motor_zero" default="1024" description="The arm left servo zero value"/>
-  <arg name="right_motor_zero" default="1024" description="The arm right servo zero value"/>
+  <arg name="left_motor_zero" default="1200" description="The arm left servo zero value"/>
+  <arg name="right_motor_zero" default="1140" description="The arm right servo zero value"/>
   <arg name="left_motor_angle" default="0.073304" description="The arm left servo zero angle"/>
   <arg name="right_motor_angle" default="-0.274016" description="The arm right servo zero angle"/>
   <arg name="left_motor_direction" default="1" description="The arm left servo direction"/>
@@ -44,7 +44,7 @@
   <arg name="tof_1" default="False" description="Enable ToF sensor #1"/>
   <arg name="tof_2" default="False" description="Enable ToF sensor #2"/>
   <arg name="tof_3" default="False" description="Enable ToF sensor #3"/>
-  <arg name="tof_rate" default="10" description="Update rate for ToF sensors"/>
+  <arg name="tof_rate" default="60" description="Update rate for ToF sensors"/>
   <let name="tof"
     value="$(eval '\'$(var tof_0)\' in (\'true\', \'True\') or
                    \'$(var tof_1)\' in (\'true\', \'True\') or
@@ -55,7 +55,7 @@
   <arg name="vision_targets" default="[]" description="Enable one or more vision detection"/>
   <let name="vision" value="$(eval 'len($(var vision_targets)) > 0')"/>
 
-  <arg name="sensor_adapter" default="true" description="Enable the sensor adapter module"/>
+  <arg name="sensor_adapter" default="false" description="Enable the sensor adapter module"/>
   <!-- [0, 1, 5, 10, 20, 50] -->
   <arg name="sensor_adapter_rate" default="10" description="Update rate for sensor adapters"/>
 

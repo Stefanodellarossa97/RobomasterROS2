@@ -24,7 +24,7 @@ for i in range(4):
 
 def urdf(name: str = '', model: str = 'ep',
          camera_yaw: float = 0.0,
-         tof_0: bool = False, tof_0_parent: str = 'base_link',
+         tof_0: bool = True, tof_0_parent: str = 'base_link',
          tof_0_xyz: str = '0 0 0', tof_0_rpy: str = '0 0 0',
          tof_1: bool = False, tof_1_parent: str = 'base_link',
          tof_1_xyz: str = '0 0 0', tof_1_rpy: str = '0 0 0',

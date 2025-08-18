@@ -40,7 +40,7 @@
 
   <arg name="servo" default="false" description="Enable the servo module. Should not be enabled together with the arm module"/>
 
-  <arg name="tof_0" default="False" description="Enable ToF sensor #0"/>
+  <arg name="tof_0" default="True" description="Enable ToF sensor #0"/>
   <arg name="tof_1" default="False" description="Enable ToF sensor #1"/>
   <arg name="tof_2" default="False" description="Enable ToF sensor #2"/>
   <arg name="tof_3" default="False" description="Enable ToF sensor #3"/>

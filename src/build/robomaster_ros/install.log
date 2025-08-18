@@ -75,10 +75,12 @@
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/joy_config_s1.yaml
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/rm_camera_calibration_720.yaml
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/rm_camera_calibration_540_simulation.yaml
+/home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/mapper_params_online_async.yaml
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/joy_config_ep.yaml
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/rm_camera_calibration_360.yaml
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/rm_camera_calibration_540.yaml
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros/config/servos.yaml
+/home/stefano/Robomaster_WS/src/install/robomaster_ros/share/robomaster_ros
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info/requires.txt
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info/dependency_links.txt
@@ -94,3 +96,4 @@
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros/play_audio
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros/play_opus
 /home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros/robomaster_driver
+/home/stefano/Robomaster_WS/src/install/robomaster_ros/lib/robomaster_ros/state_publisher

@@ -1,0 +1,1 @@
+/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_generator_py/robomaster_msgs/__init__.py

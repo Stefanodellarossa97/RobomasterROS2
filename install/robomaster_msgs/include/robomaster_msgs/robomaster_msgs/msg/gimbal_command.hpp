@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef ROBOMASTER_MSGS__MSG__GIMBAL_COMMAND_HPP_
-#define ROBOMASTER_MSGS__MSG__GIMBAL_COMMAND_HPP_
-
-#include "robomaster_msgs/msg/detail/gimbal_command__struct.hpp"
-#include "robomaster_msgs/msg/detail/gimbal_command__builder.hpp"
-#include "robomaster_msgs/msg/detail/gimbal_command__traits.hpp"
-#include "robomaster_msgs/msg/detail/gimbal_command__type_support.hpp"
-
-#endif  // ROBOMASTER_MSGS__MSG__GIMBAL_COMMAND_HPP_
+/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_generator_cpp/robomaster_msgs/msg/gimbal_command.hpp

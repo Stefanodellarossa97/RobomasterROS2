@@ -1,2 +1,1 @@
-
-float32 angle   # absolute angle in rad
+/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_cmake/srv/GetServoAngle_Response.msg

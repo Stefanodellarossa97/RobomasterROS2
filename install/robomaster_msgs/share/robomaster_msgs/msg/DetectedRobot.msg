@@ -1,3 +1,1 @@
-# Information about a robot detected using vision
-
-robomaster_msgs/RegionOfInterest roi  # bounding box
+/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/msg/DetectedRobot.msg
