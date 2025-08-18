@@ -1,3 +1,0 @@
-[console_scripts]
-ir_publisher = robomaster_ir_publisher.ir_publisher:main
-
