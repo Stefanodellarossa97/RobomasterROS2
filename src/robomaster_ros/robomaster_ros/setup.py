@@ -34,6 +34,7 @@ setup(
             'connect = robomaster_ros.connect:main',
             'discover = robomaster_ros.discover:main',
             'state_publisher = robomaster_ros.state_publisher:main',
+            
         ],
     },
 )
