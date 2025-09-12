@@ -253,6 +253,9 @@
 
   <!-- <node pkg="image_transport" name="image_compressed" exec="republish" args="raw in:=/camera/image_raw compressed out/compressed:=/camera/image_raw" if="$(var video_compressed)" /> -->
 
+  <node pkg="socket_server_pkg" exec="socket_server" name="socket_server" output="screen"/>
+
+
   <!-- <node name="display_battery" pkg="robomaster_ros" exec="display_battery" output="screen"
      if="$(eval '\'$(var display_battery)\' != \'off\' and \'$(var gimbal)\' in (\'true\', \'True\')')">
     <param name='side' value="$(var display_battery)"/>
