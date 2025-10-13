@@ -1,1 +1,3 @@
-/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_cmake/srv/GetADC_Response.msg
+
+bool valid   # whenever the sensor adapter is enabled
+uint16 value # the raw value read by the ADC

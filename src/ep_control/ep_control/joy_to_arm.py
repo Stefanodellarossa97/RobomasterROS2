@@ -22,14 +22,23 @@ class JoyToArm(Node):
         self.pos_z = 0.0
 
         # step di movimento
-        self.step = 0.01  
+        self.step = 0.01 
+        # fattore turbo
+        self.turbo_factor = 4.0 
 
         # ultimo input dal joy
         self.input_dx = 0.0
         self.input_dz = 0.0
 
+         # stato iniziale del braccio: "avanti"
+        self.arm_state = "indietro"  # oppure "avanti"
+        self.cancel_commands = False
+
+        # soglia per consentire il cambio stato
+        self.switch_x_threshold = 0.15
+
         # timer per movimento continuo
-        self.timer_period = 0.1  # secondi
+        self.timer_period = 0.05  # secondi
         self.create_timer(self.timer_period, self.process_input)
 
     def arm_callback(self, msg: PointStamped):
@@ -52,6 +61,10 @@ class JoyToArm(Node):
         elif msg.axes[7] == -1.0:  # dpad giù
             dz = -self.step
 
+        if msg.buttons[5] == 1:  # di solito R1 è buttons[5]
+            dx *= self.turbo_factor
+            dz *= self.turbo_factor
+
         self.input_dx = dx
         self.input_dz = dz
 
@@ -63,15 +76,17 @@ class JoyToArm(Node):
         new_x = self.pos_x + self.input_dx
         new_z = self.pos_z + self.input_dz
 
-        # limiti dinamici
-        if new_x < 0.181:   # braccio "indietro"
-            z_min = 0.051
-        else:               # braccio "avanti"
-            z_min = -0.07
-        z_max = 0.148
+        # --- gestione cambio stato ---
+        self.update_arm_position()
 
-        # clamp verticale
-        new_z = max(z_min, min(z_max, new_z))
+        # limiti dinamici
+        if self.arm_state == "indietro":
+                z_min = 0.051
+        else:               # braccio avanti
+            z_min = -0.07
+
+        if new_z < z_min:
+            self.cancel_commands = True
 
         # aggiorna delta dopo i limiti
         dx = new_x - self.pos_x
@@ -80,9 +95,24 @@ class JoyToArm(Node):
         if abs(dx) > 1e-6 or abs(dz) > 1e-6:
             self.send_arm_goal(dx, dz)
 
+    def update_arm_position(self):
+        # --- gestione cambio stato ---
+        # se siamo sopra la soglia in z, allora possiamo cambiare stato con input in x
+        if self.pos_z > 0.03:
+            if self.pos_x > 0.181 + self.switch_x_threshold:  # input verso +x
+                self.arm_state = "avanti"
+            elif self.pos_x < 0.181 - self.switch_x_threshold:  # input verso -x
+                self.arm_state = "indietro"
+        return 
+
     def send_arm_goal(self, dx, dz):
         if not self._action_client.wait_for_server(timeout_sec=0.5):
             self.get_logger().warn('Action server move_arm non disponibile!')
+            return
+        
+        if self.cancel_commands:
+            self.get_logger().info('Comando annullato per limiti di sicurezza.')
+            self.cancel_commands = False
             return
 
         goal_msg = MoveArm.Goal()
@@ -92,7 +122,7 @@ class JoyToArm(Node):
 
         self._action_client.send_goal_async(goal_msg)
         self.get_logger().info(
-            f'Muovo braccio: Δx={dx:.3f}, Δz={dz:.3f} (pos attuale x={self.pos_x:.3f}, z={self.pos_z:.3f})'
+            f'Muovo braccio: Δx={dx:.3f}, Δz={dz:.3f} (pos attuale x={self.pos_x:.3f}, z={self.pos_z:.3f}), STATO={self.arm_state}'
         )
 
 def main(args=None):   

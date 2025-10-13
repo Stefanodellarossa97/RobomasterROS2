@@ -1,1 +1,4 @@
-/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/msg/DetectedGesture.msg
+# Information about an [hand] gesture detected using vision
+
+robomaster_msgs/RegionOfInterest roi  # bounding box
+string kind                           # the name of the gesture

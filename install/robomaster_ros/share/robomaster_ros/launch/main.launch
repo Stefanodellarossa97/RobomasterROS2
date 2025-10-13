@@ -75,7 +75,7 @@
 
   <!-- CHASSIS -->
   <arg name="chassis" default="true" description="Enables chassis module, see :ros:param:`chassis.enabled` "/>
-  <arg name="chassis_rate" default="10" description="Chassis update rate: one of 0, 1, 5, 10, 20, 50. See :ros:param:`chassis.rate`"/>
+  <arg name="chassis_rate" default="20" description="Chassis update rate: one of 0, 1, 5, 10, 20, 50. See :ros:param:`chassis.rate`"/>
   <arg name="chassis_status_rate" default="1" description="Chassis status update rate: one of 0, 1, 5, 10, 20, 50. See :ros:param:`chassis.rate`"/>
   <arg name="chassis_timeout" default="0.0" description="Chassis control timeout in seconds. See :ros:param:`chassis.timeout`"/>
   <arg name="chassis_twist_to_wheel_speeds" default="false" description="Enables `cmd_vel` translation to wheel speeds. See :ros:param:`chassis.twist_to_wheel_speeds`"/>

@@ -1,1 +1,3 @@
-/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/msg/CameraConfig.msg
+# Command to configure the camera
+
+float32 zoom  # relative zoom

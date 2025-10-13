@@ -19,8 +19,11 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        'socket_server = socket_server_pkg.socket_server:main'
-        ],
+    'console_scripts': [
+        'socket_server = socket_server_pkg.socket_server:main',
+        'sim_scan_ros2 = socket_server_pkg.sim_scan_ros2:main',
+        'fake_lidar_scan = socket_server_pkg.fake_lidar_scan:main'
+    ],
+
     },
 )

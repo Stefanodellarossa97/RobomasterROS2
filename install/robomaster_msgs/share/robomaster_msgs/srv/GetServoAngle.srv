@@ -1,1 +1,5 @@
-/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/srv/GetServoAngle.srv
+# Command to read the servo angle.
+
+uint8 index   # ID of the servo (between 0 and 2)
+---
+float32 angle   # absolute angle in rad

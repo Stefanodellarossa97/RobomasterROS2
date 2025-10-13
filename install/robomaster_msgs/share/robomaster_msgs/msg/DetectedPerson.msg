@@ -1,1 +1,3 @@
-/home/stefano/Robomaster_WS/src/robomaster_ros/robomaster_msgs/msg/DetectedPerson.msg
+# Information about a person detected using vision
+
+robomaster_msgs/RegionOfInterest roi  # bounding box

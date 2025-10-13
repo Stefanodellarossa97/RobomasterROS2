@@ -1,1 +1,3 @@
-/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_cmake/srv/GetIO_Response.msg
+
+bool valid   # whenever the sensor adapter is enabled
+uint8 value  # the pin state (0 or 1)

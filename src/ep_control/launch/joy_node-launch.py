@@ -28,12 +28,16 @@ def generate_launch_description():
                 {'axis_angular.pitch': -1},
                 {'axis_angular.roll': -1},
                 {'axis_angular.yaw': 3},
-                {'scale_linear.x': 1.0},
-                {'scale_linear.y': 1.0},
-                {'scale_linear.z': 1.0},
+                {'scale_linear.x': 0.5},
+                {'scale_linear.y': 0.5},
+                {'scale_linear.z': 0.5},
+                {'enable_turbo_button': 5},
+                {'scale_linear_turbo.x': 1.0},
+                {'scale_linear_turbo.y': 1.0},
+                {'scale_angular_turbo.yaw': 2.0},
                 {'scale_angular.pitch': 1.0},
-                {'scale_angular.roll': 1.0},
-                {'scale_angular.yaw': 2.0}
+                {'scale_angular.roll': 1.0},                
+                {'scale_angular.yaw': 1.0}
             ],
             arguments=['--ros-args', '--log-level', 'info']
         ),

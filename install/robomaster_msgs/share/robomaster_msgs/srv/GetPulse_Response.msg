@@ -1,1 +1,3 @@
-/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_cmake/srv/GetPulse_Response.msg
+
+bool valid     # whenever the sensor adapter is enabled
+uint32 time_ms # the pulse duration in milliseconds

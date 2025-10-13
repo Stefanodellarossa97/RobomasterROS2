@@ -1,1 +1,12 @@
-/home/stefano/Robomaster_WS/build/robomaster_msgs/rosidl_generator_c/robomaster_msgs/msg/serial.h
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from robomaster_msgs:msg/Serial.idl
+// generated code does not contain a copyright notice
+
+#ifndef ROBOMASTER_MSGS__MSG__SERIAL_H_
+#define ROBOMASTER_MSGS__MSG__SERIAL_H_
+
+#include "robomaster_msgs/msg/detail/serial__struct.h"
+#include "robomaster_msgs/msg/detail/serial__functions.h"
+#include "robomaster_msgs/msg/detail/serial__type_support.h"
+
+#endif  // ROBOMASTER_MSGS__MSG__SERIAL_H_
