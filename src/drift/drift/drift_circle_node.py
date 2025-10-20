@@ -17,19 +17,19 @@ class DriftCircle(Node):
         msg.linear.y = 1.0
         msg.angular.z = -2.0
 
-        if self.pub.get_subscription_count() > self.subscription_count:
+        # if self.pub.get_subscription_count() > self.subscription_count:
             # Nessun subscriber → continuo a mandare
-            self.pub.publish(msg)
-            self.get_logger().info("Pubblico in attesa che il robot si colleghi...")
-        else:
-            # Subscriber presente → mando ancora un po'
-            if self.counter < 10:  # ~1 secondo
-                self.pub.publish(msg)
-                self.get_logger().info("Robot collegato, mando comandi...")
-                self.counter += 1
-            else:
-                self.get_logger().info("Stop pubblicazione (robot dovrebbe muoversi).")
-                self.timer.cancel()  # interrompo il timer
+        self.pub.publish(msg)
+        self.get_logger().info("Pubblico in attesa che il robot si colleghi...")
+        # else:
+        #     # Subscriber presente → mando ancora un po'
+        #     if self.counter < 10:  # ~1 secondo
+        #         self.pub.publish(msg)
+        #         self.get_logger().info("Robot collegato, mando comandi...")
+        #         self.counter += 1
+        #     else:
+        #         self.get_logger().info("Stop pubblicazione (robot dovrebbe muoversi).")
+        #         self.timer.cancel()  # interrompo il timer
     
     def stop(self):
         # Assicuro che il robot si fermi

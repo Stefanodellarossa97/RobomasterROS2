@@ -14,7 +14,7 @@ class PlaySoundNode(Node):
 
     def send_goal(self):
         goal_msg = PlaySound.Goal()
-        goal_msg.file = '/home/stefano/Robomaster_WS/sound/Shake It Off.wav'
+        goal_msg.file = '/home/stefano/Robomaster_WS/sound/Tokyo Drift.wav'
         goal_msg.sound_id = 0
         goal_msg.times = 1
 

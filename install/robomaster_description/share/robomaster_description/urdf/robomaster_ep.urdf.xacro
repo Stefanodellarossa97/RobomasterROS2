@@ -18,6 +18,7 @@
   <xacro:include filename="intelligent_controller.urdf.xacro"/>
   <xacro:include filename="extension.urdf.xacro"/>
   <xacro:include filename="tof.urdf.xacro"/>
+  <xacro:include filename="lidar.urdf.xacro"/>
 
   <xacro:base tf_prefix="${tf_prefix}"/>
   <xacro:extension tf_prefix="${tf_prefix}" use_rear_extension="true"/>
