@@ -1,0 +1,43 @@
+[4.706s] Invoking command in '/home/cricchetto/Robomaster_WS/src/drift': PYTHONPATH=/home/cricchetto/Robomaster_WS/build/drift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drift build --build-base /home/cricchetto/Robomaster_WS/build/drift/build install --record /home/cricchetto/Robomaster_WS/build/drift/install.log --single-version-externally-managed install_data
+[6.200s] running egg_info
+[6.203s] creating ../../build/drift/drift.egg-info
+[6.204s] writing ../../build/drift/drift.egg-info/PKG-INFO
+[6.205s] writing dependency_links to ../../build/drift/drift.egg-info/dependency_links.txt
+[6.206s] writing entry points to ../../build/drift/drift.egg-info/entry_points.txt
+[6.207s] writing requirements to ../../build/drift/drift.egg-info/requires.txt
+[6.208s] writing top-level names to ../../build/drift/drift.egg-info/top_level.txt
+[6.208s] writing manifest file '../../build/drift/drift.egg-info/SOURCES.txt'
+[6.216s] reading manifest file '../../build/drift/drift.egg-info/SOURCES.txt'
+[6.221s] writing manifest file '../../build/drift/drift.egg-info/SOURCES.txt'
+[6.221s] running build
+[6.222s] running build_py
+[6.223s] creating /home/cricchetto/Robomaster_WS/build/drift/build
+[6.223s] creating /home/cricchetto/Robomaster_WS/build/drift/build/lib
+[6.224s] creating /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift
+[6.224s] copying drift/__init__.py -> /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift
+[6.225s] copying drift/play_sound_node.py -> /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift
+[6.226s] copying drift/drift_circle_node.py -> /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift
+[6.226s] running install
+[6.227s] running install_lib
+[6.231s] creating /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift
+[6.232s] copying /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift/__init__.py -> /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift
+[6.233s] copying /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift/play_sound_node.py -> /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift
+[6.234s] copying /home/cricchetto/Robomaster_WS/build/drift/build/lib/drift/drift_circle_node.py -> /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift
+[6.237s] byte-compiling /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift/__init__.py to __init__.cpython-310.pyc
+[6.238s] byte-compiling /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift/play_sound_node.py to play_sound_node.cpython-310.pyc
+[6.241s] byte-compiling /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift/drift_circle_node.py to drift_circle_node.cpython-310.pyc
+[6.244s] running install_data
+[6.244s] creating /home/cricchetto/Robomaster_WS/install/drift/share/ament_index
+[6.245s] creating /home/cricchetto/Robomaster_WS/install/drift/share/ament_index/resource_index
+[6.246s] creating /home/cricchetto/Robomaster_WS/install/drift/share/ament_index/resource_index/packages
+[6.248s] copying resource/drift -> /home/cricchetto/Robomaster_WS/install/drift/share/ament_index/resource_index/packages
+[6.248s] copying package.xml -> /home/cricchetto/Robomaster_WS/install/drift/share/drift
+[6.249s] creating /home/cricchetto/Robomaster_WS/install/drift/share/drift/launch
+[6.249s] copying launch/drift_circle_launch.py -> /home/cricchetto/Robomaster_WS/install/drift/share/drift/launch
+[6.250s] running install_egg_info
+[6.258s] Copying ../../build/drift/drift.egg-info to /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift-0.0.1-py3.10.egg-info
+[6.266s] running install_scripts
+[6.363s] Installing drift_circle_node script to /home/cricchetto/Robomaster_WS/install/drift/lib/drift
+[6.364s] Installing play_sound_node script to /home/cricchetto/Robomaster_WS/install/drift/lib/drift
+[6.367s] writing list of installed files to '/home/cricchetto/Robomaster_WS/build/drift/install.log'
+[6.527s] Invoked command in '/home/cricchetto/Robomaster_WS/src/drift' returned '0': PYTHONPATH=/home/cricchetto/Robomaster_WS/build/drift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drift build --build-base /home/cricchetto/Robomaster_WS/build/drift/build install --record /home/cricchetto/Robomaster_WS/build/drift/install.log --single-version-externally-managed install_data

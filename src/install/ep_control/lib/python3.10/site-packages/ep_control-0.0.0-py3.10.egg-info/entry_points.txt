@@ -1,0 +1,5 @@
+[console_scripts]
+gripper_state = ep_control.gripper_state:main
+joy_reader = ep_control.joy_reader:main
+joy_to_arm = ep_control.joy_to_arm:main
+

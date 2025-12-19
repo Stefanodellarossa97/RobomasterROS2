@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3414611c82442c246b6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robomaster_msgs__py",
+					"jsonFile" : "directory-robomaster_msgs__py-9e989487d9f82a5af643.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/cricchetto/Robomaster_WS/build/robomaster_msgs/robomaster_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robomaster_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robomaster_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robomaster_msgs_egg-55c6c298384ccbe09111.json",
+					"name" : "ament_cmake_python_build_robomaster_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robomaster_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robomaster_msgs-beff868c29e902321f8f.json",
+					"name" : "ament_cmake_python_copy_robomaster_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs-b14a26d450f7ca00626f.json",
+					"name" : "robomaster_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__cpp-a2921f225afaecc457d9.json",
+					"name" : "robomaster_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robomaster_msgs__py::@551b80e280d126726466",
+					"jsonFile" : "target-robomaster_msgs__py-a58cc312220636caa1ea.json",
+					"name" : "robomaster_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_generator_c-a41e201321f2b6b3ca23.json",
+					"name" : "robomaster_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_generator_py-4b2706123fc58e85acd8.json",
+					"name" : "robomaster_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_c-7a697e856dc5193f7114.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_c__pyext-1f7b6283d840d1fe8f53.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_cpp-18da5a1ec912f049c868.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_fastrtps_c-0425e942effa18ee40e5.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_fastrtps_c__pyext-826637f5033010019f8b.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_fastrtps_cpp-9f10b3a5b7b59fb5b495.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_introspection_c-c2486be859fe92f529ae.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_introspection_c__pyext-825497c0dfd7122cfd20.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs__rosidl_typesupport_introspection_cpp-3e234b0c44c922bbe499.json",
+					"name" : "robomaster_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robomaster_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robomaster_msgs_uninstall-ad18374792ea0e4aca2a.json",
+					"name" : "robomaster_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-181cebe12bb2e4c09cfd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cricchetto/Robomaster_WS/build/robomaster_msgs",
+		"source" : "/home/cricchetto/Robomaster_WS/src/robomaster_ros/robomaster_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

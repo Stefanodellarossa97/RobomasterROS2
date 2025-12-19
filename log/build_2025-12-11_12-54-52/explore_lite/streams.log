@@ -1,0 +1,36 @@
+[2.935s] Invoking command in '/home/cricchetto/Robomaster_WS/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cricchetto/Robomaster_WS/install/robomaster_ros:/home/cricchetto/Robomaster_WS/install/nav2_simple_commander:/home/cricchetto/Robomaster_WS/install/ep_control:/home/cricchetto/Robomaster_WS/install/drift:/opt/ros/humble /usr/bin/cmake --build /home/cricchetto/Robomaster_WS/build/explore_lite -- -j4 -l4
+[3.567s] [ 20%] Built target gtest_main
+[3.579s] [ 40%] Built target gtest
+[3.606s] [ 80%] Built target explore
+[3.880s] [100%] Built target test_explore
+[3.944s] Invoked command in '/home/cricchetto/Robomaster_WS/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cricchetto/Robomaster_WS/install/robomaster_ros:/home/cricchetto/Robomaster_WS/install/nav2_simple_commander:/home/cricchetto/Robomaster_WS/install/ep_control:/home/cricchetto/Robomaster_WS/install/drift:/opt/ros/humble /usr/bin/cmake --build /home/cricchetto/Robomaster_WS/build/explore_lite -- -j4 -l4
+[3.947s] Invoking command in '/home/cricchetto/Robomaster_WS/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cricchetto/Robomaster_WS/install/robomaster_ros:/home/cricchetto/Robomaster_WS/install/nav2_simple_commander:/home/cricchetto/Robomaster_WS/install/ep_control:/home/cricchetto/Robomaster_WS/install/drift:/opt/ros/humble /usr/bin/cmake --install /home/cricchetto/Robomaster_WS/build/explore_lite
+[3.950s] -- Install configuration: ""
+[3.952s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/include/explore/
+[3.954s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/include/explore//frontier_search.h
+[3.956s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/include/explore//costmap_client.h
+[3.957s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/include/explore//costmap_tools.h
+[3.958s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/include/explore//explore.h
+[3.960s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/config
+[3.962s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[3.964s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/config/params.yaml
+[3.966s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/launch
+[3.969s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[3.970s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/lib/explore_lite/explore
+[3.971s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[3.972s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[3.973s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[3.973s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[3.974s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/environment/path.sh
+[3.975s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/environment/path.dsv
+[3.976s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/local_setup.bash
+[3.977s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/local_setup.sh
+[3.978s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/local_setup.zsh
+[3.980s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/local_setup.dsv
+[3.981s] -- Installing: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/package.dsv
+[3.982s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[3.983s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.984s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[3.985s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[3.986s] -- Up-to-date: /home/cricchetto/Robomaster_WS/install/explore_lite/share/explore_lite/package.xml
+[3.988s] Invoked command in '/home/cricchetto/Robomaster_WS/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cricchetto/Robomaster_WS/install/robomaster_ros:/home/cricchetto/Robomaster_WS/install/nav2_simple_commander:/home/cricchetto/Robomaster_WS/install/ep_control:/home/cricchetto/Robomaster_WS/install/drift:/opt/ros/humble /usr/bin/cmake --install /home/cricchetto/Robomaster_WS/build/explore_lite

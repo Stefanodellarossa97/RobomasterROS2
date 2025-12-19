@@ -1,0 +1,23 @@
+[5.339s] Invoking command in '/home/cricchetto/Robomaster_WS/src/ep_control': PYTHONPATH=/home/cricchetto/Robomaster_WS/build/ep_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/ep_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ep_control build --build-base /home/cricchetto/Robomaster_WS/build/ep_control/build install --record /home/cricchetto/Robomaster_WS/build/ep_control/install.log --single-version-externally-managed install_data
+[6.551s] running egg_info
+[6.554s] writing ../../build/ep_control/ep_control.egg-info/PKG-INFO
+[6.555s] writing dependency_links to ../../build/ep_control/ep_control.egg-info/dependency_links.txt
+[6.556s] writing entry points to ../../build/ep_control/ep_control.egg-info/entry_points.txt
+[6.558s] writing requirements to ../../build/ep_control/ep_control.egg-info/requires.txt
+[6.560s] writing top-level names to ../../build/ep_control/ep_control.egg-info/top_level.txt
+[6.574s] reading manifest file '../../build/ep_control/ep_control.egg-info/SOURCES.txt'
+[6.579s] writing manifest file '../../build/ep_control/ep_control.egg-info/SOURCES.txt'
+[6.580s] running build
+[6.581s] running build_py
+[6.586s] running install
+[6.588s] running install_lib
+[6.599s] running install_data
+[6.600s] running install_egg_info
+[6.613s] removing '/home/cricchetto/Robomaster_WS/install/ep_control/lib/python3.10/site-packages/ep_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.615s] Copying ../../build/ep_control/ep_control.egg-info to /home/cricchetto/Robomaster_WS/install/ep_control/lib/python3.10/site-packages/ep_control-0.0.0-py3.10.egg-info
+[6.625s] running install_scripts
+[6.731s] Installing gripper_state script to /home/cricchetto/Robomaster_WS/install/ep_control/lib/ep_control
+[6.732s] Installing joy_reader script to /home/cricchetto/Robomaster_WS/install/ep_control/lib/ep_control
+[6.732s] Installing joy_to_arm script to /home/cricchetto/Robomaster_WS/install/ep_control/lib/ep_control
+[6.734s] writing list of installed files to '/home/cricchetto/Robomaster_WS/build/ep_control/install.log'
+[6.980s] Invoked command in '/home/cricchetto/Robomaster_WS/src/ep_control' returned '0': PYTHONPATH=/home/cricchetto/Robomaster_WS/build/ep_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/ep_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ep_control build --build-base /home/cricchetto/Robomaster_WS/build/ep_control/build install --record /home/cricchetto/Robomaster_WS/build/ep_control/install.log --single-version-externally-managed install_data

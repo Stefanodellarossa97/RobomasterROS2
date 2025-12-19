@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/cricchetto/Robomaster_WS/src/navigation2-1.1.20/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

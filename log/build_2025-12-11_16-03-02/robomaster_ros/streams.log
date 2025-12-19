@@ -1,0 +1,29 @@
+[3.382s] Invoking command in '/home/cricchetto/Robomaster_WS/src/robomaster_ros/robomaster_ros': CMAKE_PREFIX_PATH=/home/cricchetto/Robomaster_WS/install/robomaster_msgs:/home/cricchetto/Robomaster_WS/install/sllidar_ros2:/home/cricchetto/Robomaster_WS/install/robomaster_description:/home/cricchetto/Robomaster_WS/install/dwb_msgs:/home/cricchetto/Robomaster_WS/install/nav_2d_msgs:/home/cricchetto/Robomaster_WS/install/nav2_voxel_grid:/home/cricchetto/Robomaster_WS/install/explore_lite:/home/cricchetto/Robomaster_WS/install/nav2_msgs:/home/cricchetto/Robomaster_WS/install/nav2_common:/home/cricchetto/Robomaster_WS/install/multirobot_map_merge PYTHONPATH=/home/cricchetto/Robomaster_WS/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /home/cricchetto/Robomaster_WS/build/robomaster_ros/build install --record /home/cricchetto/Robomaster_WS/build/robomaster_ros/install.log --single-version-externally-managed install_data
+[4.411s] running egg_info
+[4.413s] writing ../../../build/robomaster_ros/robomaster_ros.egg-info/PKG-INFO
+[4.414s] writing dependency_links to ../../../build/robomaster_ros/robomaster_ros.egg-info/dependency_links.txt
+[4.415s] writing entry points to ../../../build/robomaster_ros/robomaster_ros.egg-info/entry_points.txt
+[4.416s] writing requirements to ../../../build/robomaster_ros/robomaster_ros.egg-info/requires.txt
+[4.417s] writing top-level names to ../../../build/robomaster_ros/robomaster_ros.egg-info/top_level.txt
+[4.427s] reading manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[4.434s] writing manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[4.435s] running build
+[4.435s] running build_py
+[4.447s] running install
+[4.448s] running install_lib
+[4.465s] running install_data
+[4.470s] running install_egg_info
+[4.477s] removing '/home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[4.479s] Copying ../../../build/robomaster_ros/robomaster_ros.egg-info to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info
+[4.484s] running install_scripts
+[4.567s] Installing connect script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.567s] Installing discover script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.568s] Installing display_battery script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.569s] Installing h264_decoder script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.570s] Installing move script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.571s] Installing play_audio script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.572s] Installing play_opus script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.572s] Installing robomaster_driver script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.573s] Installing state_publisher script to /home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/robomaster_ros
+[4.577s] writing list of installed files to '/home/cricchetto/Robomaster_WS/build/robomaster_ros/install.log'
+[4.694s] Invoked command in '/home/cricchetto/Robomaster_WS/src/robomaster_ros/robomaster_ros' returned '0': CMAKE_PREFIX_PATH=/home/cricchetto/Robomaster_WS/install/robomaster_msgs:/home/cricchetto/Robomaster_WS/install/sllidar_ros2:/home/cricchetto/Robomaster_WS/install/robomaster_description:/home/cricchetto/Robomaster_WS/install/dwb_msgs:/home/cricchetto/Robomaster_WS/install/nav_2d_msgs:/home/cricchetto/Robomaster_WS/install/nav2_voxel_grid:/home/cricchetto/Robomaster_WS/install/explore_lite:/home/cricchetto/Robomaster_WS/install/nav2_msgs:/home/cricchetto/Robomaster_WS/install/nav2_common:/home/cricchetto/Robomaster_WS/install/multirobot_map_merge PYTHONPATH=/home/cricchetto/Robomaster_WS/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /home/cricchetto/Robomaster_WS/build/robomaster_ros/build install --record /home/cricchetto/Robomaster_WS/build/robomaster_ros/install.log --single-version-externally-managed install_data

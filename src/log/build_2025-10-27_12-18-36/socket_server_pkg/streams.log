@@ -1,0 +1,51 @@
+[5.304s] Invoking command in '/home/cricchetto/Robomaster_WS/src/socket_server_pkg': PYTHONPATH=/home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/socket_server_pkg build --build-base /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build install --record /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/install.log --single-version-externally-managed install_data
+[7.056s] running egg_info
+[7.059s] creating ../build/socket_server_pkg/socket_server_pkg.egg-info
+[7.060s] writing ../build/socket_server_pkg/socket_server_pkg.egg-info/PKG-INFO
+[7.062s] writing dependency_links to ../build/socket_server_pkg/socket_server_pkg.egg-info/dependency_links.txt
+[7.062s] writing entry points to ../build/socket_server_pkg/socket_server_pkg.egg-info/entry_points.txt
+[7.063s] writing requirements to ../build/socket_server_pkg/socket_server_pkg.egg-info/requires.txt
+[7.064s] writing top-level names to ../build/socket_server_pkg/socket_server_pkg.egg-info/top_level.txt
+[7.065s] writing manifest file '../build/socket_server_pkg/socket_server_pkg.egg-info/SOURCES.txt'
+[7.073s] reading manifest file '../build/socket_server_pkg/socket_server_pkg.egg-info/SOURCES.txt'
+[7.078s] writing manifest file '../build/socket_server_pkg/socket_server_pkg.egg-info/SOURCES.txt'
+[7.079s] running build
+[7.079s] running build_py
+[7.080s] creating /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build
+[7.081s] creating /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib
+[7.081s] creating /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.082s] copying socket_server_pkg/__init__.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.082s] copying socket_server_pkg/sim_express_scan.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.084s] copying socket_server_pkg/fake_lidar_scan.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.086s] copying socket_server_pkg/sim_scan_ros2.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.088s] copying socket_server_pkg/socket_server (NO-MOD).py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.090s] copying socket_server_pkg/socket_server.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+[7.092s] running install
+[7.097s] running install_lib
+[7.099s] creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.099s] copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/__init__.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.101s] copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/sim_express_scan.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.102s] copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/fake_lidar_scan.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.105s] copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/sim_scan_ros2.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.105s] copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/socket_server (NO-MOD).py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.107s] copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/socket_server.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+[7.111s] byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/__init__.py to __init__.cpython-310.pyc
+[7.113s] byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/sim_express_scan.py to sim_express_scan.cpython-310.pyc
+[7.123s] byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/fake_lidar_scan.py to fake_lidar_scan.cpython-310.pyc
+[7.126s] byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/sim_scan_ros2.py to sim_scan_ros2.cpython-310.pyc
+[7.128s] byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/socket_server (NO-MOD).py to socket_server (NO-MOD).cpython-310.pyc
+[7.132s] byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/socket_server.py to socket_server.cpython-310.pyc
+[7.136s] running install_data
+[7.137s] creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index
+[7.137s] creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index/resource_index
+[7.138s] creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index/resource_index/packages
+[7.138s] copying resource/socket_server_pkg -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index/resource_index/packages
+[7.139s] copying package.xml -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/socket_server_pkg
+[7.139s] running install_egg_info
+[7.149s] Copying ../build/socket_server_pkg/socket_server_pkg.egg-info to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg-0.0.0-py3.10.egg-info
+[7.159s] running install_scripts
+[7.309s] Installing fake_lidar_scan script to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/socket_server_pkg
+[7.311s] Installing sim_scan_ros2 script to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/socket_server_pkg
+[7.312s] Installing socket_server script to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/socket_server_pkg
+[7.315s] writing list of installed files to '/home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/install.log'
+[7.489s] Invoked command in '/home/cricchetto/Robomaster_WS/src/socket_server_pkg' returned '0': PYTHONPATH=/home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/socket_server_pkg build --build-base /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build install --record /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/install.log --single-version-externally-managed install_data

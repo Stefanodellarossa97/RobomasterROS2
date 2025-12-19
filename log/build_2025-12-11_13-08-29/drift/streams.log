@@ -1,0 +1,22 @@
+[5.632s] Invoking command in '/home/cricchetto/Robomaster_WS/src/drift': PYTHONPATH=/home/cricchetto/Robomaster_WS/build/drift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drift build --build-base /home/cricchetto/Robomaster_WS/build/drift/build install --record /home/cricchetto/Robomaster_WS/build/drift/install.log --single-version-externally-managed install_data
+[7.012s] running egg_info
+[7.015s] writing ../../build/drift/drift.egg-info/PKG-INFO
+[7.017s] writing dependency_links to ../../build/drift/drift.egg-info/dependency_links.txt
+[7.018s] writing entry points to ../../build/drift/drift.egg-info/entry_points.txt
+[7.020s] writing requirements to ../../build/drift/drift.egg-info/requires.txt
+[7.021s] writing top-level names to ../../build/drift/drift.egg-info/top_level.txt
+[7.030s] reading manifest file '../../build/drift/drift.egg-info/SOURCES.txt'
+[7.035s] writing manifest file '../../build/drift/drift.egg-info/SOURCES.txt'
+[7.036s] running build
+[7.037s] running build_py
+[7.040s] running install
+[7.041s] running install_lib
+[7.048s] running install_data
+[7.050s] running install_egg_info
+[7.061s] removing '/home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift-0.0.1-py3.10.egg-info' (and everything under it)
+[7.063s] Copying ../../build/drift/drift.egg-info to /home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages/drift-0.0.1-py3.10.egg-info
+[7.070s] running install_scripts
+[7.173s] Installing drift_circle_node script to /home/cricchetto/Robomaster_WS/install/drift/lib/drift
+[7.175s] Installing play_sound_node script to /home/cricchetto/Robomaster_WS/install/drift/lib/drift
+[7.178s] writing list of installed files to '/home/cricchetto/Robomaster_WS/build/drift/install.log'
+[7.568s] Invoked command in '/home/cricchetto/Robomaster_WS/src/drift' returned '0': PYTHONPATH=/home/cricchetto/Robomaster_WS/build/drift/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cricchetto/Robomaster_WS/install/drift/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drift build --build-base /home/cricchetto/Robomaster_WS/build/drift/build install --record /home/cricchetto/Robomaster_WS/build/drift/install.log --single-version-externally-managed install_data

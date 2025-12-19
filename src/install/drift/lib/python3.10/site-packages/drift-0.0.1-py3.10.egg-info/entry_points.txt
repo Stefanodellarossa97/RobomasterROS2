@@ -1,0 +1,4 @@
+[console_scripts]
+drift_circle_node = drift.drift_circle_node:main
+play_sound_node = drift.play_sound_node:main
+

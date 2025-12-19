@@ -1,0 +1,49 @@
+running egg_info
+creating ../build/socket_server_pkg/socket_server_pkg.egg-info
+writing ../build/socket_server_pkg/socket_server_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/socket_server_pkg/socket_server_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/socket_server_pkg/socket_server_pkg.egg-info/entry_points.txt
+writing requirements to ../build/socket_server_pkg/socket_server_pkg.egg-info/requires.txt
+writing top-level names to ../build/socket_server_pkg/socket_server_pkg.egg-info/top_level.txt
+writing manifest file '../build/socket_server_pkg/socket_server_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/socket_server_pkg/socket_server_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/socket_server_pkg/socket_server_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build
+creating /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib
+creating /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+copying socket_server_pkg/__init__.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+copying socket_server_pkg/sim_express_scan.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+copying socket_server_pkg/fake_lidar_scan.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+copying socket_server_pkg/sim_scan_ros2.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+copying socket_server_pkg/socket_server (NO-MOD).py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+copying socket_server_pkg/socket_server.py -> /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg
+running install
+running install_lib
+creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/__init__.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/sim_express_scan.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/fake_lidar_scan.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/sim_scan_ros2.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/socket_server (NO-MOD).py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+copying /home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/build/lib/socket_server_pkg/socket_server.py -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg
+byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/sim_express_scan.py to sim_express_scan.cpython-310.pyc
+byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/fake_lidar_scan.py to fake_lidar_scan.cpython-310.pyc
+byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/sim_scan_ros2.py to sim_scan_ros2.cpython-310.pyc
+byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/socket_server (NO-MOD).py to socket_server (NO-MOD).cpython-310.pyc
+byte-compiling /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg/socket_server.py to socket_server.cpython-310.pyc
+running install_data
+creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index
+creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index/resource_index
+creating /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index/resource_index/packages
+copying resource/socket_server_pkg -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/share/socket_server_pkg
+running install_egg_info
+Copying ../build/socket_server_pkg/socket_server_pkg.egg-info to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/python3.10/site-packages/socket_server_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fake_lidar_scan script to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/socket_server_pkg
+Installing sim_scan_ros2 script to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/socket_server_pkg
+Installing socket_server script to /home/cricchetto/Robomaster_WS/src/install/socket_server_pkg/lib/socket_server_pkg
+writing list of installed files to '/home/cricchetto/Robomaster_WS/src/build/socket_server_pkg/install.log'
