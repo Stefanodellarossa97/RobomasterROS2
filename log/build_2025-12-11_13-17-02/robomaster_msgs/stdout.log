@@ -1,4 +1,0 @@
-[  0%] Built target robomaster_msgs__cpp
-[  0%] Built target ament_cmake_python_copy_robomaster_msgs
-[ 12%] Built target robomaster_msgs__rosidl_typesupport_fastrtps_cpp
-[ 25%] Built target robomaster_msgs__rosidl_typesupport_introspection_cpp

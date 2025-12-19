@@ -1,6 +1,0 @@
-Invoking command in '/home/cricchetto/Robomaster_WS/build/robomaster_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cricchetto/Robomaster_WS/src/robomaster_ros/robomaster_msgs -DCMAKE_INSTALL_PREFIX=/home/cricchetto/Robomaster_WS/install/robomaster_msgs
-Invoked command in '/home/cricchetto/Robomaster_WS/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cricchetto/Robomaster_WS/src/robomaster_ros/robomaster_msgs -DCMAKE_INSTALL_PREFIX=/home/cricchetto/Robomaster_WS/install/robomaster_msgs
-Invoking command in '/home/cricchetto/Robomaster_WS/build/robomaster_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cricchetto/Robomaster_WS/build/robomaster_msgs -- -j4 -l4
-Invoked command in '/home/cricchetto/Robomaster_WS/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cricchetto/Robomaster_WS/build/robomaster_msgs -- -j4 -l4
-Invoking command in '/home/cricchetto/Robomaster_WS/build/robomaster_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cricchetto/Robomaster_WS/build/robomaster_msgs
-Invoked command in '/home/cricchetto/Robomaster_WS/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cricchetto/Robomaster_WS/build/robomaster_msgs
